@@ -67,7 +67,7 @@ class ViewController: UIViewController, UITableViewDataSource  {
         //2
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Task")
         
-        //3
+        
         do {
             let results =
                 try managedContext.fetch(fetchRequest)
